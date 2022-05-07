@@ -21,9 +21,17 @@
 
 
 ## Docker Container
+- コンテナー一覧
+  ~~~
+  docker ps -a
+  ~~~
+
 - コンテナー作成
 
 - コンテナー削除
+  ~~~
+  docker rm コンテナ識別
+  ~~~
 
 - コンテナー起動
   ~~~
@@ -113,14 +121,14 @@ bundle install
   docker-compose exec <サービス><コマンド>'`
   ~~~
 
-  - Bashを起動)
+  - Bashを起動
     ~~~
     docker-compose exec web /bin/bash
     ~~~
 
 - doceker compose で作成したすべてのイメージ、コンテナを削除する
   ~~~
-  docker-compose down --rmi all --volumes --remove-orphans`
+  docker-compose down --rmi all --volumes --remove-orphans
   ~~~
 
 

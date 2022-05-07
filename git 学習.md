@@ -81,6 +81,7 @@ git config --global user.name "KatayamaEiji"
 
 git config --global user.email katayama.eiji@gmail.com
 ~~~
+
 - リモートURLの設定
 ~~~
 git remote add origin https://github.com/KatayamaEiji/MyStudy.git
@@ -95,3 +96,16 @@ git push origin master
 ~~~
 git pull origin master
 ~~~
+
+## GitHubおまけ
+- git config の確認
+~~~
+git config --list
+~~~
+
+- git config --global の設定を確認する。
+~~~
+git config --global --edit
+~~~
+
+> ローカルのユーザーフォルダ直下に「.gitconfig」というファイルに保存されている。
